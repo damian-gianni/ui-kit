@@ -1,0 +1,35 @@
+{
+  "name": "ui-kit",
+  "version": "1.0.0",
+  "description": "ui kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianIunigo/ui-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianIunigo/ui-kit/issues"
+  },
+  "homepage": "https://github.com/damianIunigo/ui-kit#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-info": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.3.0",
+    "@material-ui/icons": "^4.2.1",
+    "@storybook/addon-actions": "^5.1.9",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-jss": "^8.6.1",
+    "styled-components": "^4.3.2"
+  }
+}
